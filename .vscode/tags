@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+build-tagger.py	../build-tagger.py	1;"	kind:file	line:1
+os	../build-tagger.py	/^import os$/;"	kind:namespace	line:2
+math	../build-tagger.py	/^import math$/;"	kind:namespace	line:3
+sys	../build-tagger.py	/^import sys$/;"	kind:namespace	line:4
+datetime	../build-tagger.py	/^import datetime$/;"	kind:namespace	line:5
+np	../build-tagger.py	/^import numpy as np$/;"	kind:namespace	line:6
+json	../build-tagger.py	/^import json$/;"	kind:namespace	line:7
+is_invalid_word	../build-tagger.py	/^def is_invalid_word(word):$/;"	kind:function	line:9
+update_nested_dict	../build-tagger.py	/^def update_nested_dict(first_key, second_key, nested_dict, count_key):$/;"	kind:function	line:15
+transform_count_to_prob	../build-tagger.py	/^def transform_count_to_prob(nested_dict, count_key):$/;"	kind:function	line:34
+train_model	../build-tagger.py	/^def train_model(train_file, model_file):$/;"	kind:function	line:41
+train_file	../build-tagger.py	/^    train_file = sys.argv[1]$/;"	kind:variable	line:119
+model_file	../build-tagger.py	/^    model_file = sys.argv[2]$/;"	kind:variable	line:120
+start_time	../build-tagger.py	/^    start_time = datetime.datetime.now()$/;"	kind:variable	line:121
+end_time	../build-tagger.py	/^    end_time = datetime.datetime.now()$/;"	kind:variable	line:123
+run-tagger.py	../run-tagger.py	1;"	kind:file	line:1
+os	../run-tagger.py	/^import os$/;"	kind:namespace	line:3
+math	../run-tagger.py	/^import math$/;"	kind:namespace	line:4
+sys	../run-tagger.py	/^import sys$/;"	kind:namespace	line:5
+datetime	../run-tagger.py	/^import datetime$/;"	kind:namespace	line:6
+np	../run-tagger.py	/^import numpy as np$/;"	kind:namespace	line:7
+json	../run-tagger.py	/^import json$/;"	kind:namespace	line:8
+viberti	../run-tagger.py	/^def viberti(word_list, tag_tag, tag_word):$/;"	kind:function	line:10
+tag_sentence	../run-tagger.py	/^def tag_sentence(test_file, model_file, out_file):$/;"	kind:function	line:22
+test_file	../run-tagger.py	/^    test_file = sys.argv[1]$/;"	kind:variable	line:50
+model_file	../run-tagger.py	/^    model_file = sys.argv[2]$/;"	kind:variable	line:51
+out_file	../run-tagger.py	/^    out_file = sys.argv[3]$/;"	kind:variable	line:52
+start_time	../run-tagger.py	/^    start_time = datetime.datetime.now()$/;"	kind:variable	line:53
+end_time	../run-tagger.py	/^    end_time = datetime.datetime.now()$/;"	kind:variable	line:55
+eval.py	../eval.py	1;"	kind:file	line:1
+os	../eval.py	/^import os$/;"	kind:namespace	line:4
+sys	../eval.py	/^import sys$/;"	kind:namespace	line:5
+out_file	../eval.py	/^    out_file = sys.argv[1]$/;"	kind:variable	line:9
+reader	../eval.py	/^    reader = open(out_file)$/;"	kind:variable	line:10
+out_lines	../eval.py	/^    out_lines = reader.readlines()$/;"	kind:variable	line:11
+ref_file	../eval.py	/^    ref_file = sys.argv[2]$/;"	kind:variable	line:14
+reader	../eval.py	/^    reader = open(ref_file)$/;"	kind:variable	line:15
+ref_lines	../eval.py	/^    ref_lines = reader.readlines()$/;"	kind:variable	line:16
+total_tags	../eval.py	/^    total_tags = 0$/;"	kind:variable	line:23
+matched_tags	../eval.py	/^    matched_tags = 0$/;"	kind:variable	line:24
+cur_out_line	../eval.py	/^        cur_out_line = out_lines[i].strip()$/;"	kind:variable	line:26
+cur_out_tags	../eval.py	/^        cur_out_tags = cur_out_line.split(' ')$/;"	kind:variable	line:27
+cur_ref_line	../eval.py	/^        cur_ref_line = ref_lines[i].strip()$/;"	kind:variable	line:28
+cur_ref_tags	../eval.py	/^        cur_ref_tags = cur_ref_line.split(' ')$/;"	kind:variable	line:29
